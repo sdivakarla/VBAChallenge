@@ -10,8 +10,7 @@ In order to all Steve to scale his reasearch up to a larger selection of stocks,
 
 The original calculations were conducted using nested loops and checking for ticker symbols in each row.  This process was successful and screenshots were captured to document the time to completion of the analysis. 
 
-<img width="258" alt="2018TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035754-e9093bc2-e539-4567-a340-0b003c258ae0.png">
-<img width = "258" alt="2017TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035849-f6a030f1-aca4-43bd-bf1b-c7e987f8613b.png">
+<img width="258" alt="2018TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035754-e9093bc2-e539-4567-a340-0b003c258ae0.png"> <img width = "258" alt="2017TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035849-f6a030f1-aca4-43bd-bf1b-c7e987f8613b.png">
 
 
 
