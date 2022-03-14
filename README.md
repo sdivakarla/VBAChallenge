@@ -10,13 +10,37 @@ In order to all Steve to scale his reasearch up to a larger selection of stocks,
 
 # Results
 
-The original calculations were conducted using nested loops and checking for ticker symbols in each row.  This process was successful and screenshots were captured to document the time to completion of the analysis. 
+The original calculations were conducted using nested loops and checking for ticker symbols in each row.  This process was successful and generated calculations for each stock ticker.  
 
-<img width="258" alt="2018TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035754-e9093bc2-e539-4567-a340-0b003c258ae0.png"> <img width = "258" alt="2017TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035849-f6a030f1-aca4-43bd-bf1b-c7e987f8613b.png">
+![AllStocksCode](https://user-images.githubusercontent.com/98054953/158203209-418df9cd-956a-4af1-b067-f851069246a5.png)
 
+Screeenshots of the timer message were captured to show the elapsed time for each year using the original code. 
 
+<img width = "258" alt="2017TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035849-f6a030f1-aca4-43bd-bf1b-c7e987f8613b.png"> <img width="258" alt="2018TimewithAllStocks" src="https://user-images.githubusercontent.com/98054953/158035754-e9093bc2-e539-4567-a340-0b003c258ae0.png"> 
 
+The code was refactored to utilie and index and, therefore, reduce the number of times the code has to scan each line for the ticker and corresponding prices and volumes. The updated code is shown below. 
 
-<img width="267" alt="AllStock2017Output" src="https://user-images.githubusercontent.com/98054953/158035813-65f9cdcb-d2dd-44b9-a11f-edb5953458c5.png">
+![RefractedCode](https://user-images.githubusercontent.com/98054953/158204058-9ef5f0b8-4701-4e83-a4d0-3f77684daec7.png)
+
+The updated code was more efficient, resulting in runtimes that were faster (78% faster for 2018 analysis and 77% faster for 2017 analysis). 
+
+<img width="257" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/98054953/158204227-d94cbc97-de4a-4bf5-a050-c90689cd8569.png"> <img width="253" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/98054953/158204229-84f1d7f2-c3fd-48d4-b2c0-b1f0bc4d6540.png">
+
+The results were color coded for easy interpretation by Steve.  At a glance he can see which stocks improved (green) and which stocks decreased (red). 
+
+<img width="267" alt="AllStock2017Output" src="https://user-images.githubusercontent.com/98054953/158035813-65f9cdcb-d2dd-44b9-a11f-edb5953458c5.png"> <img width="279" alt="AllStock2018Output" src="https://user-images.githubusercontent.com/98054953/158206529-8f023da1-1899-4248-a55d-3f229a88f8dc.png">
+
+# Summary 
+
+1. The advanatage of refactoring code include: 
+- Simplified code is easier to check and update if there are changes. 
+- More efficient code will result in faster run times. 
+- In the future, time will be saved with the simplified code. 
+- The ability to scale to the code up to larger datasets.
+2. The disadvantages of refactoring code include: 
+- Lost time in editing code that already works. 
+- Retesting time must be considered as the code is being edited. 
+
+For the VBA Challenge, the process of refactoring the code had advantages and disadvantages.  The original All Stocks code was operational and performed the original task requested by Steve.  The runtime was not burdensome (less than one second for each scenario). However, the improved (refactored) code did improve efficiencies and simple changes to the tickers array would allow for expansion to more stocks.  The process of refactoring was time consuming and led to multiple iterations of testing the code in order to get the modifications to work properly.  At the end, the process did results in more streamlined code that was more efficient so it was worth the extra effort. 
 
 
