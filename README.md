@@ -30,5 +30,17 @@ The results were color coded for easy interpretation by Steve.  At a glance he c
 
 <img width="267" alt="AllStock2017Output" src="https://user-images.githubusercontent.com/98054953/158035813-65f9cdcb-d2dd-44b9-a11f-edb5953458c5.png"> <img width="279" alt="AllStock2018Output" src="https://user-images.githubusercontent.com/98054953/158206529-8f023da1-1899-4248-a55d-3f229a88f8dc.png">
 
+# Summary 
+
+1. The advanatage of refactoring code include: 
+- Simplified code is easier to check and update if there are changes. 
+- More efficient code will result in faster run times. 
+- In the future, time will be saved with the simplified code. 
+- The ability to scale to the code up to larger datasets.
+2. The disadvantages of refactoring code include: 
+- Lost time in editing code that already works. 
+- Retesting time must be considered as the code is being edited. 
+
+For the VBA Challenge, the process of refactoring the code had advantages and disadvantages.  The original All Stocks code was operational and performed the original task requested by Steve.  The runtime was not burdensome (less than one second for each scenario). However, the improved (refactored) code did improve efficiencies and simple changes to the tickers array would allow for expansion to more stocks.  The process of refactoring was time consuming and led to multiple iterations of testing the code in order to get the modifications to work properly.  At the end, the process did results in more streamlined code that was more efficient so it was worth the extra effort. 
 
 
